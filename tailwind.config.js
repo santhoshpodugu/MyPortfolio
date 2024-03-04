@@ -16,7 +16,8 @@ export default {
           hover: 'rgb(142, 142, 241)',
           special: 'rgb(110, 110, 241)',
           bar: 'rgb(119, 119, 236)',
-          shadow: 'rgba(158, 143, 248, 0.2)'
+          shadow: 'rgba(158, 143, 248, 0.2)',
+          menu: 'rgba(53, 53, 139, 0.930)'
         }
       },
     },
