@@ -55,6 +55,7 @@ function Skills() {
         {skills.map((skill) => {
           return (
             <img
+              key={skill.name}
               src={skill.Img}
               alt="skill"
               title={skill.name}

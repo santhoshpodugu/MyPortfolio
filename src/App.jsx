@@ -1,5 +1,14 @@
 import React from "react";
-import {NavBar, MainSection, About, Education, Skills} from './components/index';
+import {
+  NavBar,
+  MainSection,
+  About,
+  Education,
+  Skills,
+  Projects,
+  Contact,
+  Footer,
+} from "./components/index";
 
 function App() {
   return (
@@ -9,6 +18,9 @@ function App() {
       <About />
       <Education />
       <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }

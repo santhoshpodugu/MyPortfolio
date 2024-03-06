@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {HashLink} from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 
 const navLinks = [
   {
@@ -30,7 +30,8 @@ const navLinks = [
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
-  const bars = 'block bg-white w-[25px] h-[3px] my-[5px] mx-auto transition-all duration-300 ease-in-out';
+  const bars =
+    "block bg-white w-[25px] h-[3px] my-[5px] mx-auto transition-all duration-300 ease-in-out";
   return (
     <nav className="fixed flex justify-around items-center h-20 bg-primary-main top-0 inset-x-0 z-10 md:justify-between md:px-4">
       <div className="font-black text-2xl hover:text-primary-hover cursor-pointer">
@@ -43,7 +44,8 @@ function NavBar() {
       >
         {navLinks.map((link) => {
           return (
-            <HashLink smooth
+            <HashLink
+              smooth
               key={link.name}
               to={link.link}
               className="p-6 hover:underline underline-offset-[10px] hover:text-primary-hover md:hover:no-underline md:hover:text-white md:p-2 md:text-[25px] md:hover:bg-gradient-to-tr md:hover:from-primary-main md:hover:to-primary-special"
@@ -62,9 +64,13 @@ function NavBar() {
           setIsOpen((prev) => !prev);
         }}
       >
-        <span className={`${bars} ${isOpen ? 'translate-y-2 rotate-45' : ''} `}></span>
-        <span className={`${bars} ${isOpen ? 'opacity-0' : ''} `}></span>
-        <span className={`${bars} ${isOpen ? '-translate-y-2 -rotate-45' : ''} `}></span>
+        <span
+          className={`${bars} ${isOpen ? "translate-y-2 rotate-45" : ""} `}
+        ></span>
+        <span className={`${bars} ${isOpen ? "opacity-0" : ""} `}></span>
+        <span
+          className={`${bars} ${isOpen ? "-translate-y-2 -rotate-45" : ""} `}
+        ></span>
       </div>
     </nav>
   );

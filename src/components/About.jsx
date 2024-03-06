@@ -7,7 +7,7 @@ function About() {
       <div>
         <Title>
           About{" "}
-          <span className=" bg-gradient-to-t from-primary-main to-primary-special bg-clip-text text-transparent">
+          <span className="bg-gradient-to-t from-primary-main to-primary-special bg-clip-text text-transparent">
             Me
           </span>
         </Title>
