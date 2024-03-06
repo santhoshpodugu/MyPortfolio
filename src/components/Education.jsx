@@ -29,7 +29,7 @@ function Education() {
   return (
     <section
       id="education"
-      className="h-[610px] flex flex-col items-center pt-[13px]"
+      className="h-[610px] flex flex-col items-center pt-[80px]"
     >
       <Title>Education</Title>
       <div className="flex flex-col py-10">

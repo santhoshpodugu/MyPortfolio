@@ -1,8 +1,5 @@
 import React from "react";
-import NavBar from "./components/NavBar";
-import MainSection from "./components/MainSection";
-import About from "./components/About";
-import Education from "./components/Education";
+import {NavBar, MainSection, About, Education, Skills} from './components/index';
 
 function App() {
   return (
@@ -11,6 +8,7 @@ function App() {
       <MainSection />
       <About />
       <Education />
+      <Skills />
     </>
   );
 }
