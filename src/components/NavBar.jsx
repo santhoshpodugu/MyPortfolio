@@ -57,9 +57,7 @@ function NavBar() {
         })}
       </div>
       <div
-        className={`${
-          isOpen ? "active" : ""
-        } hamburger-menu cursor-pointer hidden md:block`}
+        className={`hamburger-menu cursor-pointer hidden md:block`}
         onClick={() => {
           setIsOpen((prev) => !prev);
         }}

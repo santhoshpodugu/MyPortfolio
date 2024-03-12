@@ -44,6 +44,7 @@ function Contact() {
         {socialCards.map((card) => {
           return (
             <Link
+              key={card.name}
               to={card.link}
               target="_blank"
               className="flex justify-center items-center my-6 p-2 w-[370px]  rounded-lg gap-x-12 bg-gradient-to-tr from-black to-primary-menu hover:shadow-[0_0_5px_5px] hover:shadow-primary-shadow hover:-translate-x-2 hover:-translate-y-1 transition-transform ease-in duration-300"
