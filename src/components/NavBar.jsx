@@ -4,27 +4,27 @@ import { HashLink } from "react-router-hash-link";
 const navLinks = [
   {
     name: "Home",
-    link: "/#home",
+    link: "#home",
   },
   {
     name: "About",
-    link: "/#about",
+    link: "#about",
   },
   {
     name: "Education",
-    link: "/#education",
+    link: "#education",
   },
   {
     name: "Skills",
-    link: "/#skills",
+    link: "#skills",
   },
   {
     name: "Projects",
-    link: "/#projects",
+    link: "#projects",
   },
   {
     name: "Contact",
-    link: "/#contact",
+    link: "#contact",
   },
 ];
 
